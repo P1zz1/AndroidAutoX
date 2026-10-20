@@ -8,6 +8,7 @@ on:
       - claude/app-refactor-ci-setup-bLSpb
       - claude/100-percent-test-coverage-5mbY4
   pull_request:
+  workflow_dispatch:
 
 jobs:
   build:
